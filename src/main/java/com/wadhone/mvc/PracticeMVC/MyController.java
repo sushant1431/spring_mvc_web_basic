@@ -8,6 +8,16 @@ public class MyController {
 
     @RequestMapping("/")
     public String hello(){
-        return "Hello";
+        return "index";
+    }
+
+    @RequestMapping("/form")
+    public String greet(){
+        return "form";
+    }
+
+    @RequestMapping("/processForm")
+    public String processForm(){
+        return "process";
     }
 }

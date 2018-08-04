@@ -12,5 +12,8 @@
 </head>
 <body>
 <h1>Welcome to World</h1>
+
+<h2>Please <a href="/form">Click here</a> to show form</h2>
+
 </body>
 </html>
